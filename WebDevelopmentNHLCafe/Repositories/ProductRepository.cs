@@ -1,8 +1,8 @@
 using System.Data;
 using Dapper;
-using WebdevProjectStarterTemplate.Models;
+using WebDevelopmentNHLCafe.Models;
 
-namespace WebdevProjectStarterTemplate.Repositories;
+namespace WebDevelopmentNHLCafe.Repositories;
 
 public class ProductRepository
 {

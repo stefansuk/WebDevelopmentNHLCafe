@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using WebdevProjectStarterTemplate.Models;
-using WebdevProjectStarterTemplate.Repositories;
+using WebDevelopmentNHLCafe.Models;
+using WebDevelopmentNHLCafe.Repositories;
 
-namespace WebdevProjectStarterTemplate.Pages;
+namespace WebDevelopmentNHLCafe.Pages;
 
 public class DisplayProducts : PageModel
 {

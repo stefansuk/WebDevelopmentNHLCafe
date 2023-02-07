@@ -1,7 +1,7 @@
 using System.Data;
 using MySql.Data.MySqlClient;
 
-namespace WebdevProjectStarterTemplate
+namespace WebDevelopmentNHLCafe
 {
     public class DbUtils
     {

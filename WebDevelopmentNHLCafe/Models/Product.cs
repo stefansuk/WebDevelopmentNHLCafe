@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace WebdevProjectStarterTemplate.Models
+namespace WebDevelopmentNHLCafe.Models
 {
     public class Product
     {
