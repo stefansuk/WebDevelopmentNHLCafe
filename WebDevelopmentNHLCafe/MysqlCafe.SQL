@@ -1,6 +1,8 @@
-CREATE DATABASE IF NOT EXISTS WebdevProject;
+drop database if exists WebdevProject;
 
-USE WebdevProject;
+CREATE DATABASE IF NOT EXISTS WebDevelopmentNHLCafe;
+
+USE WebDevelopmentNHLCafe;
 
 DROP TABLE IF EXISTS Category, Product CASCADE ;
 
@@ -52,10 +54,10 @@ INSERT INTO Product (Name, CategoryId, Price) VALUES ('Fanta orange' , (SELECT C
 INSERT INTO Product (Name, CategoryId, Price) VALUES ('Bitter Lemon' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.30);
 INSERT INTO Product (Name, CategoryId, Price) VALUES ('Tonic' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.30);
 INSERT INTO Product (Name, CategoryId, Price) VALUES ('Fanta Cassis' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.30);
-INSERT INTO Product (Name, CategoryId, Price) VALUES ('Chaudfontainte still' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.30);
-INSERT INTO Product (Name, CategoryId, Price) VALUES ('Chaudfontainte sparkling' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.30);
-INSERT INTO Product (Name, CategoryId, Price) VALUES ('Lipton-ice tea regular' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.50);
-INSERT INTO Product (Name, CategoryId, Price) VALUES ('Lipton-ice green' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.50);
+INSERT INTO Product (Name, CategoryId, Price) VALUES ('Chaudfontaine still' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.30);
+INSERT INTO Product (Name, CategoryId, Price) VALUES ('Chaudfontaine sparkling' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.30);
+INSERT INTO Product (Name, CategoryId, Price) VALUES ('Lipton ice tea regular' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.50);
+INSERT INTO Product (Name, CategoryId, Price) VALUES ('Lipton ice green' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.50);
 INSERT INTO Product (Name, CategoryId, Price) VALUES ('Appelsap' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.50);
 INSERT INTO Product (Name, CategoryId, Price) VALUES ('Jus d’orange' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.50);
 INSERT INTO Product (Name, CategoryId, Price) VALUES ('Rivella' , (SELECT CategoryId FROM Category WHERE Name = 'Frisdranken'), 2.50);
